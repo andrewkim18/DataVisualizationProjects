@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 6 - Cars</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <div>
+            <b>Scatterplot Axes:</b><br>
+            X-axis:
+            <select id="xAttrSelector">
+                <option value="cylinders">Cylinders</option>
+                <option value="economy (mpg)">Economy (mpg)</option>
+                <option value="displacement (cc)">Displacement (cc)</option>
+                <option value="power (hp)" selected>Power (hp)</option>
+                <option value="weight (lb)">Weight (lb)</option>
+                <option value="0-60 mph (s)">0-60 mph (s)</option>
+                <option value="year">Year</option>
+            </select>
+            Y-axis:
+            <select id="yAttrSelector">
+                <option value="cylinders">Cylinders</option>
+                <option value="economy (mpg)">Economy (mpg)</option>
+                <option value="displacement (cc)">Displacement (cc)</option>
+                <option value="power (hp)">Power (hp)</option>
+                <option value="weight (lb)">Weight (lb)</option>
+                <option value="0-60 mph (s)" selected>0-60 mph (s)</option>
+                <option value="year">Year</option>
+            </select>
+        </div>
+        <svg id="scatterplot" width="700" height="350" style="border: 1px solid #777;"></svg>
+        <svg id="barchart" width="700" height="350" style="border: 1px solid #777;"></svg>
+    </div>
+</body>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="./d3-tip.js"></script>
+<script src="./main.js"></script>
+</html>
