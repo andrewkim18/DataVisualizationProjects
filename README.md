@@ -21,4 +21,4 @@ This repository is a collection of projects designed to learn the skills needed 
 - Project aimed to link multiple views, utilize brushing and linking.
 
 ### Project 7
-- Project aimed to design a visualization of a dataset about movies in an interactive force-directed graph visualization.
+- Project aimed to design a visualization of a dataset about movies in an interactive force-directed graph
